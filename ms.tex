@@ -55,6 +55,11 @@ N. Charter St., Madison, WI 53706, USA}
 
 \email{westfall@ucolick.org}
 
+% Project collaborators: Matthew Bershady, Anne-Marie Weijmans, Karen
+% Masters, Michael Merrifield, Jo Bovy, Kevin Bundy, Niv Drory, Thomas
+% Martinsson, Joel Brownstein, Daniel Thomas, Dmitry Bizyaev, David Law,
+% Andres Meza, Aaron A. Dutton
+
 \begin{abstract}
 
 Asymmetric drift (AD) is the lag of the mean rotation velocity of the
@@ -65,24 +70,24 @@ connection between AD and the stellar phase-space distribution function
 makes it an interesting dynamical properties of galaxies in and of
 itself.  The SDSS-IV/MaNGA survey provides more than an order of
 magnitude increase in any galaxy sample size useful for AD measurements.
-In this pilot Letter, we study the empirical correlation between AD, or
-more precisely the differential tangential lag between the stellar
-component and \halpha-emitting gas, and global photometric properties
-from the NASA-Sloan Atlas.  We isolate a set of galaxies with \halpha\
-and stellar velocity fields that are well-fit by simple disk models.
-Our sample of $\sim$800 galaxies shows a clear correlation between
-absolute $i$-band magnitude and AD measured at half an effective radius.
-Removing the primary dependence on the rotation speed, we find that the
-stellar disk rotation is 90\% of the \halpha\ rotation speed, in the
-mean.  Our sample size allows us to infer a weak, yet statistically
-significant, trend with galaxy $N-r$ color such that, in the mean,
-redder galaxies have moderately larger AD relative to their rotation
-speeds.  Within the context of an albeit strong set of assumptions,
-including a direct proportionality between AD and stellar velocity
-dispersion as seen in the Milky Way, we argue that our results suggest
-little variation in the mean disk mass-to-light ratio as a function of
-absolute magnitude and only modest variations with galaxy color
-\comment{last sentence TBD; is Figure 3 consistent with SPS
+In this pilot study, we demonstrate the empirical correlation between
+AD, or more precisely the differential tangential lag between the
+stellar component and \halpha-emitting gas, and global photometric
+properties from the NASA-Sloan Atlas.  We isolate a set of galaxies with
+\halpha\ and stellar velocity fields that are well-fit by simple disk
+models.  Our sample of $\sim$800 galaxies shows a clear correlation
+between absolute $i$-band magnitude and AD measured at half an effective
+radius.  Removing the primary dependence on the rotation speed, we find
+that the stellar disk rotation is 90\% of the \halpha\ rotation speed,
+in the mean.  Our sample size allows us to infer a weak, yet
+statistically significant, trend with galaxy $N-r$ color such that, in
+the mean, redder galaxies have moderately larger AD relative to their
+rotation speeds.  Within the context of an albeit strong set of
+assumptions, including a direct proportionality between AD and stellar
+velocity dispersion as seen in the Milky Way, we argue that our results
+suggest little variation in the mean disk mass-to-light ratio as a
+function of absolute magnitude and only modest variations with galaxy
+color \comment{last sentence TBD; is Figure 3 consistent with SPS
 variations?}.
 
 \end{abstract}
@@ -98,9 +103,9 @@ For ensembles of stars in a galaxy disk, \citet[][Section
 asymmetric drift (AD) as arising due to the combined effect of the
 radially decreasing surface-density and velocity-dispersion profiles
 typical of axisymmetric systems.  Using the $v_R$ moment of the
-collisionless Boltzmann equation, one obtains the Jeans \comment{ref}
-equation that directly relates the circular speed ($v_c$), the mean
-stellar tangential speed ($\overline{v_\theta}$), and the stellar
+collisionless Boltzmann equation, one obtains the Jeans equation
+\citep{Jeans1919} that directly relates the circular speed ($v_c$), the
+mean stellar tangential speed ($\overline{v_\theta}$), and the stellar
 velocity ellipsoid (SVE) as a function of radius in the plane of
 symmetry:
 %
@@ -122,7 +127,7 @@ vertical flows inherent to its derivation, equation \ref{eq:adformal} is
 often simplified by assuming the right-most term --- describing the
 covariance between the radial and vertical motions as a function of
 perpendicular distance to the plane of symmetry --- is negligible
-\comment{cf.  Cuddeford \& Amendt}.
+\citep{1991ApJ...368...79A}.
 
 Asymmetric drift has been measured in numerous systems.  Perhaps most
 notably, e.g., \comment{Dehnen \& Binney} have shown that populations of
@@ -132,7 +137,7 @@ Local Standard of Rest (LSR), much in line with the expectation provided
 by equation \ref{eq:adformal}.  Although there have been some studies of
 AD in external galaxies \comment{refs}, it is often treated as a
 nuisance phenomenon that must be corrected for when trying to constrain
-the circular speed curve of a galaxy \comment{refs}.  The ubiquity and
+the circular speed of a galaxy \comment{refs}.  The ubiquity and
 phenomenology of AD as a salient observable has not yet been studied for
 a statistically significant population of galaxies.  Our aim is
 therefore to provide a first look at the correlation between AD
@@ -170,18 +175,16 @@ In addition to the basic understanding of this dynamically relevant
 quantity, our interest in AD stems from its fundamental dynamical
 connection to the full phase-space distribution function of a galaxy's
 stars, as empirically demonstrated in the Milky Way.  Indeed,
-\comment{Westfall et al. (2011; see also refs} used AD to constrain the
-axial ratios of the SVE given direct measurements of the line-of-sight
-(LOS) stellar velocity dispersion, $\sigma$.  Alternatively, if one can
-statistically constrain the shape of the SVE \comment{refs},
-measurements of AD could be used as a proxy for stellar $\sigma$ by
-either appealing to equation \ref{eq:adformal} or an empirical relation
-calibrated by samples with both AD and $\sigma$ measurements \comment{in
-prep...}.  Such a use of AD as a proxy for stellar $\sigma$ is
-attractive in the low-surface-brightness and low-velocity-dispersion
-regimes where direct measurements are difficult and/or expensive.  We
-commit to this paradigm by using the following nomenclature for AD,
-following from equation \ref{eq:adformal}:
+\citet{2011ApJ...742...18W} used AD to constrain the axial ratios of the
+SVE given direct measurements of the line-of-sight (LOS) stellar
+velocity dispersion, $\sigma$.  Alternatively, if one can leverage
+statistical constraints on the shape of the SVE
+\citep[e.g.][]{2012MNRAS.423.2726G}, measurements of AD can be used as a
+proxy for stellar $\sigma$ via equation \ref{eq:adformal}.  Such a use
+of AD-$\sigma$ relation is attractive in the low-surface-brightness and
+low-velocity-dispersion regimes where direct measurements are difficult
+and/or expensive.  We commit to this paradigm by using the following
+nomenclature for AD, following from equation \ref{eq:adformal}:
 %
 \begin{equation}
 %
@@ -223,13 +226,13 @@ right; however, it is their interpretation in the context of the
 theoretical definition of AD that should be questioned in some regimes,
 as discussed in Section \ref{sec:discussion}.
 
-We present the data used for our analysis in the following section.  In
-Section \ref{sec:results}, we demonstrate that there is a strong
-correlation between the absolute $i$-band magnitude of a galaxies and
-the strength of its AD measured at half of an effective radius (0.5
-$R_{\rm eff}$).  We also illustrate the weak color dependence in this
-relation.  We summarize and discuss these results in Section
-\ref{sec:discussion}. \comment{flesh out}
+We present the data used for our analysis in the following section.
+Section \ref{sec:results} presents the strong correlation seen in out
+galaxy sample between the absolute $i$-band magnitude and AD signal
+measured at half of an effective radius (0.5 $R_{\rm eff}$).  We also
+illustrate the weak color dependence in this relation.  Finally, we
+summarize and discuss these results in Section \ref{sec:discussion}.
+\comment{flesh out}
 
 \section{Data}
 \label{sec:data}
@@ -242,59 +245,63 @@ analysis pipeline \comment{DAP; Westfall et al., in prep}: the
 ionized-gas kinematics are based on simple single-Gaussian fits to the
 \halpha\ emission feature and the stellar kinematics are determined
 using {\tt pPXF} (Cappellari et al.) with the MILES stellar template
-library \comment{Jesus FB et al.}.
+library \comment{Jesus FB et al.}.  \comment{Mention hierarchical
+clustering?}
 
-The MaNGA galaxy selection \comment{Wake et al} is a simple cut in
-absolute $i$-band magnitude, $M_i$, and redshift, $z$, and provides a
-complete \comment{check} sampling of the overall galaxy population.  As
-such, measurements of stellar and/or \halpha\ rotation curves for some
-systems will be difficult/impossible.  Using the photometry from the
-NASA-Sloan Atlas \comment{ref},\footnote{\url{nsatlas.org}} Figure
-\ref{fig:sample} shows the color-magnitude diagram of all galaxies
-colored by their mean \halpha\ and $r$-band surface brightness.
-\comment{ Check the details of how this plot was constructed}  Although
-not excluded from our velocity-field analysis {\em a priori}, we expect
-to obtain poor rotation-curve measurements for galaxies with low
-\halpha\ and stellar surface brightness.\footnote{
+The MaNGA galaxy selection \citep{2017AJ....154...86W} is a simple cut
+in absolute $i$-band magnitude, $M_i$, and redshift, $z$, and provides a
+complete sampling of the overall galaxy population.  As such,
+measurements of stellar and/or \halpha\ rotation curves for some systems
+will be difficult/impossible.  Using the photometry from the NASA-Sloan
+Atlas,\footnote{\url{nsatlas.org}} Figure \ref{fig:sample} shows the
+color-magnitude diagram of all galaxies colored by their mean \halpha\
+and $r$-band surface brightness.  \comment{Update this} Although not
+excluded from our velocity-field analysis {\em a priori}, we expect to
+obtain poor rotation-curve measurements for galaxies with low \halpha\
+and stellar surface brightness.\footnote{
 %
-The uniformity of the MaNGA survey \comment{Law et al. 2015} is such
+The uniformity of the MaNGA survey \citet{2015AJ....150...19L} is such
 that the signal-to-noise (S/N) of the datacube spaxels is tightly
 correlated with surface brightness.}
 
 \comment{Extinction corrections for the CMD?}
 
+\comment{Primary vs. Secondary sample?}
+
 We model the geometric projection of the rotational plane of each galaxy
-using the approach presented by \comment{Andersen \& Bershady (2013)};
-see also \comment{Westfall et al. (2011)}.  In three independent fitting
-iterations, the model fits are optimized for the \halpha\ velocity
-field, the stellar velocity field, and simultaneously for both data
-sets; for the latter, the geometry is forced to be the same for the two
-dynamical tracers, but the parametrized rotation curves are independent.
-We use these velocity-field-fitting results to objectively isolate a set
-of ``kinematically regular'' galaxies.  Briefly, galaxies in this sample
-must have: (i) successful velocity-field fits for all three approaches,
-(ii) differences in the measured \halpha\ and stellar systemic velocity
-of less than 20 km/s, (iii) dynamical centers that are consistent to
-within a fiber diameter of the morphological center \comment{check the
-details of this}, (iv) \halpha\ and stellar velocity-field position
-angles that are consistent to within $\pm$15$\arcdeg$, and (v) kinematic
-inclinations between $15\arcdeg < i < 80\arcdeg$ that are both
-consistent between the \halpha\ and stellar data and with respect to the
-photometric ellipticity to within $\pm$20$\arcdeg$.  The constraint on
-the inclination is by far the most stringent. \comment{give number of
+using the approach presented by \citep[][see also
+\citealt{2011ApJ...742...18W}]{2003ApJ...599L..79A}.  In three
+independent fitting iterations, the model fits are optimized for the
+\halpha\ velocity field, the stellar velocity field, and simultaneously
+for both data sets; for the latter, the geometry is forced to be the
+same for the two dynamical tracers, but the parametrized rotation curves
+are independent.  We use these velocity-field-fitting results to
+objectively isolate a set of ``kinematically regular'' galaxies.
+Briefly, galaxies in this sample must have: (i) successful
+velocity-field fits for all three approaches, (ii) differences in the
+measured \halpha\ and stellar systemic velocity of less than 20 km/s,
+(iii) dynamical centers that are consistent to within a fiber diameter
+of the morphological center \comment{check the details of this}, (iv)
+\halpha\ and stellar velocity-field position angles that are consistent
+to within $\pm$15$\arcdeg$, and (v) kinematic inclinations between
+$15\arcdeg < i < 80\arcdeg$ that are both consistent between the
+\halpha\ and stellar data and with respect to the photometric
+ellipticity to within $\pm$20$\arcdeg$.  The constraint on the
+inclination is by far the most stringent. \comment{give number of
 galaxies cut by each criterion?}  Applying these constraints yields a
 sample of 798 observations (for 790 unique galaxies) out of the 2764
 observations analyzed.  Eleven galaxies with repeat observations satisfy
 the selection criteria; however, only five of these show all
-observations are consistently selected, whereas the other six show one
-or more of the observations did not pass our constraints \comment{we
-should understand why repeat observations are not consistent for the
-majority of cases.  low S/N?}.  \comment{Do this or remove the
-sentence:} Finally, we also visually inspected the broad-band imaging of
-these 790 galaxies and eliminated merging and highly extincted (highly
-inclined) systems yielding a final sample of XXX galaxies.  We hereafter
-refer to galaxies that satisfy our selection criteria as the ``AD
-sample''.
+observations are consistently selected.  The remaining six show one or
+more of the observations did not pass our constraints \comment{we should
+understand why repeat observations are not consistent for the majority
+of cases.  low S/N?}.  \comment{Do this or remove the sentence:}
+Finally, we also visually inspected the broad-band imaging of these 790
+galaxies and eliminated merging and highly extincted (highly inclined)
+systems yielding a final sample of XXX galaxies.  We hereafter refer to
+galaxies that satisfy our selection criteria as the ``AD sample''.
+
+\comment{limitations of an infinitely thin disk fit?}
 
 Figure \ref{fig:sample} shows the color-magnitude distribution for all
 MaNGA galaxies, as well as the distributions of those galaxies included
@@ -308,7 +315,7 @@ sample are a biased representation of the overall galaxy population.
 
 \comment{Show histogram of kinematically regular sample against the
 volume-corrected distribution of the MaNGA parent sample in Mi and N-r,
-and discuss.}
+and discuss?}
 
 Our velocity-fitting method provides a model rotation curve fit to both
 the \halpha\ and stellar data, each parametrized as a hyperbolic tangent
@@ -392,28 +399,31 @@ $\sigma_a/v_{{\rm H}\alpha}$ in Figures \ref{fig:correlation}(b),
 The points are colored according to the label to the right of each color
 bar.  Each panel provides the Spearman rank-correlation coefficient,
 $r_s$, of the plotted data with errors derived from $10^3$ bootstrap
-simulations.  We have also used a Markov Chain Monte Carlo
-\comment{refs} to sample the Bayesian posterior distribution for a
-linear regression to the data in each panel, incorporating the errors in
-both axes \comment{refs}; the errors in the kinematic quantities always
-dominate over the absolute magnitude errors.  The fitted model is a line
-in parametric form with an intrinsic Gaussian scatter perpendicular to
-the line.  That is, the line is defined as $\mathbf{l}(t) = \mathbf{l}_0
-+ t\ \hat{\mathbf{l}}$ for a generalized coordinate $t$ along the line,
-an origin $\mathbf{l}_0 = \{x_0, y_0\}$, and the unit vector
-$\hat{\mathbf{l}} = \{\cos\phi, \sin\phi\}$.  The fitted parameters are
-$y_0$, $\phi$, and the dispersion of the intrinsic Gaussian scatter
-about the line, $\varepsilon$; $x_0$ is fixed at the median abscissa of
-the data being fitted ($x_0 = M_{i,0} = -20.6$).  Uniform priors are
-used for $y_0$ and $\phi$ and a logarithmic prior \comment{check this is
-true} is used for $\varepsilon$ \comment{ref}.  Using the returned
-samples of the posterior, we also provide parameters for the
-slope-intercept form of the line --- $y = mx + b$ where $m = \tan\phi$
-and $b = y_0 - x_0 \tan\phi$ --- and the scatter projected along the
-ordinate, $\varepsilon_y = \varepsilon/|\cos\phi$|.  Table
-\ref{tab:lines} provides the median and standard deviation of the
-marginalized distribution of each parameter; these parameters have been
-used to construct the lines provided in Figure \ref{fig:correlation}.
+simulations.  We have also used a Markov Chain Monte Carlo to sample the
+Bayesian posterior distribution for a linear regression to the data in
+each panel, incorporating the errors in both axes \citep[see,
+e.g.][]{2010arXiv1008.4686H}; the errors in the kinematic quantities
+always dominate over the absolute magnitude errors.  The fitted model is
+a line in parametric form with an intrinsic Gaussian scatter
+perpendicular to the line.  That is, the line is defined as
+$\mathbf{l}(t) = \mathbf{l}_0 + t\ \hat{\mathbf{l}}$ for a generalized
+coordinate $t$ along the line, an origin $\mathbf{l}_0 = \{x_0, y_0\}$,
+and the unit vector $\hat{\mathbf{l}} = \{\cos\phi, \sin\phi\}$.  The
+fitted parameters are $y_0$, $\phi$, and the dispersion of the intrinsic
+Gaussian scatter about the line, $\varepsilon$; $x_0$ is fixed at the
+median abscissa of the data being fitted ($M_{i,0} = -20.6$).  Uniform
+priors are used for $y_0$ and $\phi$ and a logarithmic prior
+\comment{check this is true} is used for $\varepsilon$
+\citep{MacKay:itp}.  Using the returned samples of the posterior, we
+also provide parameters for the slope-intercept form of the line --- $y
+= mx + b$ where $m = \tan\phi$ and $b = y_0 - x_0 \tan\phi$ --- and the
+scatter projected along the ordinate, $\varepsilon_y =
+\varepsilon/|\cos\phi$|.  Table \ref{tab:lines} provides the median and
+standard deviation of the marginalized distribution of each parameter;
+these parameters have been used to construct the lines provided in
+Figure \ref{fig:correlation}.
+
+\comment{Show the PDFs?}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{deluxetable}{ c r r r }
@@ -444,15 +454,15 @@ $\varepsilon_y$ &      0.070 &      0.222 &      0.068 \\
 
 As expected, there is a strong correlation between $v_{{\rm H}\alpha}$
 and $M_i$.  However, it is important to note that Figure
-\ref{fig:correlation}(b) does not present the Tully-Fisher \comment{ref}
-relation for our AD sample; the Figure gives the rotation speed at
-$R=0.5R_{\rm eff}$, not a measure of the full-width of the dynamically
-broadened line profile.  The slope of the relation in Figure
-\ref{fig:correlation}(b) is steeper than a nominal Tully-Fisher relation
-because galaxies at low luminosity tend to have more slowly rising
-rotation curves \comment{refs}, which can be confirmed by plotting
-$h_{v,{\rm H}\alpha}/R_{\rm eff}$ as a function of $M_i$.
-\comment{actually show this?}
+\ref{fig:correlation}(b) does not present the
+\citet{1977A&A....54..661T} relation for our AD sample; the Figure gives
+the rotation speed at $R=0.5R_{\rm eff}$, not a measure of the
+full-width of the dynamically broadened line profile.  The slope of the
+relation in Figure \ref{fig:correlation}(b) is steeper than a nominal
+Tully-Fisher relation because galaxies at low luminosity tend to have
+more slowly rising rotation curves \comment{refs}, which can be
+confirmed by plotting $h_{v,{\rm H}\alpha}/R_{\rm eff}$ as a function of
+$M_i$.  \comment{actually show this?}
 
 Figure \ref{fig:correlation}(c) gives the direct representation of the
 gradient in the point color seen in Figure \ref{fig:correlation}(a).
@@ -462,38 +472,40 @@ $r_s$ and the fitted regression.  The intrinsic scatter increases from
 $(M_i,\sigma_a^2)$; however, this is close to the $\sim$0.1 dex scatter
 if considering $(M_i,\sigma_a)$ instead.
 
-If $\sigma_a$ or $v_{{\rm H}\alpha}$ was a secondary parameter in the
-distribution of $(M_i,v_{{\rm H}\alpha})$ or $(M_i,\sigma_a^2)$,
-respectively, we should expect a gradient in the point color in Figures
-\ref{fig:correlation}(b) and \ref{fig:correlation}(c) {\em
-perpendicular} to the fitted regression.  However, we see that the
-primary gradient in point color is parallel to the fitted regression.
-This is consistent with the result that there is little to no
-correlation between $M_i$ and $\sigma_a/v_{{\rm H}\alpha}$, as shown in
-Figure \ref{fig:correlation}(d):  Both $r_s$ and $\phi$ are small and
-only marginally significant with respect to their errors.  From equation
-\ref{eq:dproj}, this implies that the deprojected stellar rotation is a
-roughly constant fraction of the ionized-gas rotation speed, with
-$v_{\ast} \sim 0.9 v_{{\rm H}\alpha}$.  Although the radius at which the
-AD was sampled is different, this ratio is consistent with a similar
-ratio measured for DiskMass-Survey galaxies \comment{Martinsson et al.}.
+If $\sigma_a$ or $v_{{\rm H}\alpha}$ was a fully orthogonal secondary
+parameter in the distribution of $(M_i,v_{{\rm H}\alpha})$ or
+$(M_i,\sigma_a^2)$, respectively, we should expect a gradient in the
+point color in Figures \ref{fig:correlation}(b) and
+\ref{fig:correlation}(c) {\em perpendicular} to the fitted regression.
+However, we see that the primary gradient in point color is parallel to
+the fitted regression.  This is consistent with the result that there is
+little to no correlation between $M_i$ and $\sigma_a/v_{{\rm H}\alpha}$,
+as shown in Figure \ref{fig:correlation}(d):  Both $r_s$ and $\phi$ are
+small and only marginally significant with respect to their errors.
+From equation \ref{eq:dproj}, this implies that the deprojected stellar
+rotation is roughly a constant fraction of the ionized-gas rotation
+speed, with $v_{\ast} \sim 0.9 v_{{\rm H}\alpha}$ \comment{give
+scatter}.  Although the radius at which the AD was sampled is different,
+this ratio is consistent with a similar ratio measured for
+DiskMass-Survey galaxies \citep{2013A&A...557A.130M}.
 
-The points in Figure \ref{fig:correlation}(d) are colored by the global
-$N-r$ color; however, it is difficult to determine from this
-illustration if their is any correlation between $\sigma_a/v_{{\rm
-H}\alpha}$ and global galaxy color.  One might expect such a correlation
-if, for example, galaxies with different global color have different
-light-weightings of the thin vs. thick-disk \comment{refs; not sure
-there are relevant ones; Comer\'{o}n?}, which propagates to a difference
-in which component dominates the dynamical pressure in the disk
-midplane.  Figure \ref{fig:colortrend} assesses this directly by
-plotting the error-weighted mean trend in $\sigma_a/v_{{\rm H}\alpha}$
-for quartiles of the $N-r$ distribution of the AD sample.  The error
-bars represent the error-weighted standard deviation of the data in each
-bin, whereas the error-weighted standard error is always {\it smaller
-than the plotted point}.  This suggests a marginal, yet statistically
-significant, detection of a slightly larger $\sigma_a/v_{{\rm H}\alpha}$
-in the reddest bin.
+\comment{Need to revisit this paragraph in the context of the
+bulge-to-disk fraction.}  The points in Figure \ref{fig:correlation}(d)
+are colored by the global $N-r$ color.  It is difficult to determine
+from this illustration if their is any correlation between
+$\sigma_a/v_{{\rm H}\alpha}$ and global galaxy color.  One might expect
+such a correlation if, for example, galaxies with different global color
+have different light-weightings of the thin- vs. thick-disk
+\comment{refs; not sure there are relevant ones; Comer\'{o}n?}, which
+propagates to a difference in which component dominates the dynamical
+pressure in the disk midplane.  Figure \ref{fig:colortrend} assesses
+this directly by plotting the error-weighted mean trend in
+$\sigma_a/v_{{\rm H}\alpha}$ for quartiles of the $N-r$ distribution of
+the AD sample.  The error bars represent the error-weighted standard
+deviation of the data in each bin, whereas the error-weighted standard
+error is always {\it smaller than the plotted point}.  This suggests a
+marginal, yet statistically significant, detection of a slightly larger
+$\sigma_a/v_{{\rm H}\alpha}$ in the reddest bin.
 
 %; however, more data would be required to lend this result any
 %statistical significance.
