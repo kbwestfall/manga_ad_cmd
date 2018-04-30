@@ -68,28 +68,28 @@ stellar disk behind the circular speed defined by the total
 gravitational potential.  Although it is often considered a nuisance
 correction one must apply in circular-speed calculations, the direct
 connection between AD and the stellar phase-space distribution function
-makes it an interesting dynamical properties of galaxies in and of
-itself.  The SDSS-IV/MaNGA survey provides more than an order of
-magnitude increase in any galaxy sample size useful for AD measurements.
-In this pilot study, we measure AD --- or more precisely the
-differential tangential lag between the stellar component and
-\halpha-emitting gas --- in a set of galaxies with \halpha\ and stellar
-velocity fields that are well-fit by simple disk models.  We describe
-our fitting approach and the selection of our subsample in detail.  Our
-final sample of $\sim$XXX galaxies shows a clear correlation between
-absolute $i$-band magnitude and AD measured at effectively all radii.
-\comment{The rest neesds to be updated.} Removing the primary dependence
-on the rotation speed, we find that the stellar disk rotation is 90\% of
-the \halpha\ rotation speed, in the mean.  Our sample size allows us to
-infer a weak, yet statistically significant, trend with galaxy $N-r$
-color such that, in the mean, redder galaxies have moderately larger AD
-relative to their rotation speeds.  Within the context of an albeit
-strong set of assumptions, including a direct proportionality between AD
-and stellar velocity dispersion as seen in the Milky Way, we argue that
-our results suggest little variation in the mean disk mass-to-light
-ratio as a function of absolute magnitude and only modest variations
-with galaxy color \comment{last sentence TBD; is Figure 3 consistent
-with SPS variations?}.
+makes it an interesting dynamical property of galaxies in and of itself.
+The SDSS-IV/MaNGA survey provides more than an order of magnitude
+increase in any galaxy sample size useful for AD measurements.  In this
+pilot study, we measure AD --- or more precisely the differential
+tangential lag between the stellar component and \halpha-emitting gas
+--- in a set of galaxies with \halpha\ and stellar velocity fields that
+are well-fit by simple disk models.  We describe our fitting approach
+and the selection of our subsample in detail.  Our final sample of
+$\sim$XXX galaxies shows a clear correlation between absolute $i$-band
+magnitude and AD measured at effectively all radii.  \comment{The rest
+neesds to be updated.} Removing the primary dependence on the rotation
+speed, we find that the stellar disk rotation is 90\% of the \halpha\
+rotation speed, in the mean.  Our sample size allows us to infer a weak,
+yet statistically significant, trend with galaxy $N-r$ color such that,
+in the mean, redder galaxies have moderately larger AD relative to their
+rotation speeds.  Within the context of an albeit strong set of
+assumptions, including a direct proportionality between AD and stellar
+velocity dispersion as seen in the Milky Way, we argue that our results
+suggest little variation in the mean disk mass-to-light ratio as a
+function of absolute magnitude and only modest variations with galaxy
+color \comment{last sentence TBD; is Figure 3 consistent with SPS
+variations?}.
 
 \end{abstract}
 
@@ -128,10 +128,10 @@ where $R,\theta,z$ are the cylindrical coordinates, $\rho$ is the volume
 density, and $\sigma$ is the velocity dispersion.  Along with the
 standard assumptions of dynamical equilibrium and negligible radial and
 vertical flows inherent to its derivation, equation \ref{eq:adformal} is
-often simplified by assuming the right-most term --- describing the
-covariance between the radial and vertical motions as a function of
-perpendicular distance to the plane of symmetry --- is negligible
-\citep[cf.][]{1991ApJ...368...79A}.
+often simplified by assuming the right-most term is negligible
+\citep[cf.][]{1991ApJ...368...79A}; i.e., there is negligible covariance
+between the radial and vertical motions as a function of perpendicular
+distance to the plane of symmetry.
 
 Asymmetric drift has been measured in numerous systems, perhaps most
 notably in the Galaxy.  For example, \citet{1998MNRAS.298..387D} have
@@ -142,7 +142,7 @@ the expectation provided by equation \ref{eq:adformal} (see also
 \comment{more recent RAVE and RAVE+Gaia references}).
 
 Asymmetric drift measurements in extragalactic systems are common in the
-literature \ref{examples}; however, it is most often cast as a nuisance
+literature \comment{examples}; however, it is most often cast as a nuisance
 phenomenon that one must correct for when constructing circular-speed
 curves \comment{refs}.  The ubiquity and phenomenology of AD as a
 salient observable has not yet been studied for a statistically
@@ -185,14 +185,15 @@ phase-space distribution function of a galaxy's stars, as empirically
 demonstrated in the Milky Way.  Indeed, \citet{2011ApJ...742...18W} used
 AD to constrain the axial ratios of the SVE given direct measurements of
 the line-of-sight (LOS) stellar velocity dispersion, $\sigma$.
-Alternatively, if one can leverage statistical constraints on the shape
-of the SVE \citep[e.g.][]{2012MNRAS.423.2726G}, measurements of AD can
-be used as a proxy for stellar $\sigma$ via equation \ref{eq:adformal}.
-Such a use of AD-$\sigma$ relation is attractive in the
+Alternatively, if one can statistically constrain the shape of the SVE
+\citep[e.g.][]{2012MNRAS.423.2726G}, measurements of AD could then be
+used as a proxy for stellar $\sigma$ via equation \ref{eq:adformal}.
+Such an AD-$\sigma$ relation becomes attractive in the
 low-surface-brightness and low-velocity-dispersion regimes where direct
-measurements are difficult and/or expensive.  We commit to this paradigm
-by defining $\sigma_a^2 \equiv v_c^2 - \overline{v_\theta}^2$, following
-from equation \ref{eq:adformal}, for use throughout this paper.
+measurements of $\sigma$ are difficult and/or expensive.  Adopting this
+paradigm outright, we define $\sigma_a^2 \equiv v_c^2 -
+\overline{v_\theta}^2$, following from equation \ref{eq:adformal}, for
+use throughout this paper.
 
 For disk galaxies, there is a decades-long industry of using cold-gas
 tracers to construct circular-speed curves of galaxies \comment{refs}.
@@ -202,14 +203,14 @@ reconstruction \comment{refs} and have formed the basis for the most
 robust Tully-Fisher relations compiled for the local Universe
 \comment{refs}.  However, it is important to acknowledge that one cannot
 directly measure $v_c$, effectively making $\sigma_a$ unobservable.
-That is, every dynamical tracer has some non-zero dynamical pressure
-such that it will lag behind the theoretically defined circular speed.
-There are very clear examples of early-type galaxies that show
-differential AD in their molecular (e.g., CO), atomic (e.g.,
-\ion{H}{1}), and/or ionized (\halpha) tracers relative to a robust mass
-model of $v_c$ \citep{2013MNRAS.429..534D}, due to the different
-turbulent/thermal pressures intrinsic to these tracers.  However, these
-signatures are much less apparent in disk galaxies.  For example,
+That is, every tracer has some non-zero dynamical pressure such that it
+will lag behind the theoretically defined circular speed.  There are
+very clear examples of early-type galaxies that show differential AD in
+their molecular (e.g., CO), atomic (e.g., \ion{H}{1}), and/or ionized
+(\halpha) tracers relative to a robust mass model of $v_c$
+\citep{2013MNRAS.429..534D} due to the different turbulent/thermal
+pressures intrinsic to these tracers.  However, these signatures are
+much less apparent in disk galaxies.  For example,
 \citet{2013A&A...557A.131M} show that \halpha\ and \ion{H}{1} rotation
 curves are consistent for the DiskMass Survey within the limits of their
 constraints on beam-smearing.  This suggests that any correction for the
@@ -227,16 +228,18 @@ right; however, their interpretation in the context of the theoretical
 definition of AD must be done with care, as we discuss in Section
 \ref{sec:discussion}.
 
-We present the data used for our analysis in the following section.
-Section \ref{sec:results} presents the strong correlation seen in out
-galaxy sample between the absolute $i$-band magnitude and AD signal
-measured at half of an effective radius (0.5 $R_{\rm eff}$).  We also
-illustrate the weak color dependence in this relation.  Finally, we
-summarize and discuss these results in Section \ref{sec:discussion}.
-\comment{flesh out}
+\comment{Outline should be updated} We present the data used for our
+analysis in the following section.  Section \ref{sec:results} presents
+the strong correlation seen in out galaxy sample between the absolute
+$i$-band magnitude and AD signal measured at half of an effective radius
+(0.5 $R_{\rm eff}$).  We also illustrate the weak color dependence in
+this relation.  Finally, we summarize and discuss these results in
+Section \ref{sec:discussion}.  \comment{flesh out}
 
 \section{Data}
 \label{sec:data}
+
+\subsection{Galaxy Sample}
 
 We use integral-field spectroscopy from the SDSS-IV/MaNGA (Mapping
 Nearby Galaxies from APO) Survey to construct stellar and ionized-gas
@@ -246,58 +249,632 @@ normal survey operations, and the reduced datacubes are included in DR14
 \citep{2017arXiv170709322A}.  \comment{additional references to
 technical papers}.
 
-The kinematic measurements are determined by a preliminary version of
-the MaNGA data analysis pipeline (DAP; Westfall et al., in prep).  From
-this preliminary version (2.0.2), we use the simple single-Gaussian fits
-to the \halpha\ emission feature for the ionized-gas kinematics, and the
-stellar kinematics are determined using {\tt pPXF}
-\citep{2004PASP..116..138C, 2017MNRAS.466..798C} with the MILES stellar
-template library \citep{2011A&A...532A..95F}.  We find the velocity
-measurements to be statistically well behaved to a $g$-band
-signal-to-noise ratio (SNR) of $\sim$1.\footnote{
+The MaNGA galaxy selection is discussed in detail by
+\citet{2017AJ....154...86W}; the galaxies in DR14 represent a random
+sampling of full MaNGA parent sample.  The parent sample is selected
+using simple cuts in absolute $i$-band magnitude, $M_i$, and redshift,
+$z$, from the NASA-Sloan Atlas (NSA; \url{www.nsatlas.org}) to produce
+two main galaxy samples, Primary and Secondary, with roughly twice as
+many galaxies observed from the former.  The main distinguishing
+characteristic of the two samples is MaNGA provides uniform coverage to
+$\sim$$1.5R_e$ and $\sim$$2.5R_e$ for the Primary and Secondary sample,
+respectively.  The Primary sample is supplemented by a
+``Color-enhanced'' sample that improves coverage of the galaxy
+population in low-density regions of color-magnitude space; the
+combination of Primary and Color-enhanced samples are referred to as the
+Primary$+$ sample.  Although we will comment on any difference in our
+analysis results between the Primary$+$ and Secondary samples, we
+largely treat these two samples identically in our analysis.
+
+The ($N-r, M_i$) color-magnitude diagram (CMD) for MaNGA galaxies in
+DR14 (using NSA photometry) is shown in the left-most panels of Figure
+\ref{fig:sample}.  Data in the top and bottom row are colored according
+to, respectively, the average \halpha\ surface brightness and
+$g$-band-weighted mean flux density within 1 $R_e$.  We discuss Figure
+\ref{fig:sample} in the context of our selection of galaxies appropriate
+for our AD analysis \comment{below}.
+
+\subsection{MaNGA Spectroscopy}
+
+The MaNGA fiber-feed system \citet{2015AJ....149...77D} for the
+2.5-meter Sloan telescope at Apache Point Observatory (APO) is coupled
+to the SDSS-III/BOSS spectrographs \citep{2013AJ....146...32S}, a pair
+of dual-channel spectrographs that provide $R_\lambda =
+\lambda/\Delta\lambda \approx 2000$ across the full spectral range of
+$3600\AA \lesssim \lambda \lesssim 10300\AA$.  Each MaNGA pointing
+provides simultaneous observations of 17 galaxies using fiber bundles
+ranging from 19 to 127 fibers.  The dither pattern of the MaNGA
+observational strategy \citep{2015AJ....150...19L} provides a remarkably
+uniform depth for each observation with fields-of-view ranging from
+$12\arcsec$ to $32\arcsec$ for the smallest and largest bundles,
+respectively.  The uniform depth yields a tight correlation between flux
+density per spaxel and signal-to-noise (S/N); see
+\citet{2015AJ....150...19L, 2016AJ....152...83L} and
+\citet{2016AJ....151....8Y, 2016AJ....152..197Y} for additional details
+about the survey execution and performance.
+
+In particular, \citet{2016AJ....152...83L} describes the methods used by
+the MaNGA Data Reduction Pipeline (DRP) is an to produce wavelength-,
+flux- \citep{2016AJ....151....8Y}, and astrometrically calibrated
+spectra from the raw CCD data.  The reduction procedures are similar to
+those used by the SDSS-III/BOSS pipeline, but with significant
+adjustments as required by the MaNGA observations.  
+
+Here, we use the rectified datacubes that have been logarithmically
+binned in wavelength (i.e., the \verb|LOGCUBE| files).  The MaNGA data
+cubes are constructed by regridding the flux of all spectra for a given
+plate--IFU combination in each wavelength channel to an on-sky pixel
+(spaxel) sampling of $0\farcs5\times0\farcs5$.  The interpolating PSF
+used in this process is a two-dimensional Gaussian with a standard
+deviation of $0\farcs6$ and a truncation radius of $1\farcs7$.  This
+interpolation process leads to significant covariance between the
+spaxels in a given wavelength channel \citep{2016AJ....152...83L}.  This
+spatial covariance does not affect the primary result of our paper, so
+we defer a more detailed consideration of the covariance for future
+work.
+
+\subsection{Stellar and Ionized-Gas Kinematics}
+
+The kinematic measurements are determined by a preliminary version
+(2.0.2) of the MaNGA Data Analysis Pipeline (DAP; Westfall et al., {\it
+in prep}).  The pipeline provides simple single-Gaussian fits to the
+\halpha\ emission feature that we use for the ionized-gas kinematics,
+and the stellar kinematics are determined using {\tt pPXF}
+\citep{2004PASP..116..138C, 2017MNRAS.466..798C}.  The templates used by
+{\tt pPXF} are a hierarchically clustered distillation of the MILES
+stellar template library \citep{2011A&A...532A..95F}.  We find the
+velocity measurements to be statistically well behaved to a $g$-band
+signal-to-noise ratio of S/N$\sim$1.\footnote{
 %
 This and other assessments of the fidelity of the stellar kinematics
-provided by the DAP will be discussed in detail by Westfall et al., {\em
+provided by the DAP will be discussed in detail by Westfall et al., {\it
 in prep}.}
 %
-Therefore, we perform our analysis using the stellar kinematics measured
-for each MaNGA spaxel (each spaxel is $0\farcs5$ on a side and
-subsamples the $\sim$$2\farcs5$ fiber beam).
-
-% \comment{Mention hierarchical clustering?}
-
-The MaNGA galaxy selection, see \citet{2017AJ....154...86W}, is a simple
-cut in absolute $i$-band magnitude, $M_i$, from the NASA-Sloan Atlas
-(NSA; \url{www.nsatlas.org}) and the SDSS single-fiber redshift, $z$.
-The MaNGA galaxy sample provides a statistically complete representation
-of the overall galaxy population with a provided set of corrections to a
-volume-limited sample.  The NSA-based ($N-r, M_i$) color-magnitude
-diagram (CMD) of the full sample of galaxies obtained through the second
-year of survey operations are shown in the left-most panels of Figure
-\ref{fig:sample}, with the points colored by the \halpha\ .
-
-Using the photometry from the NSA, Figure \ref{fig:sample} shows the
-color-magnitude diagram of all galaxies colored by their mean \halpha\
-and $r$-band surface brightness.
-
-However, our nominal approach to measuring the stellar and gas rotation curves will be limited forAs such,
-measurements of stellar and/or \halpha\ rotation curves for some systems
-will be difficult/impossible.  
-
-
-
-\comment{Update this} Although not
-excluded from our velocity-field analysis {\em a priori}, we expect to
-obtain poor rotation-curve measurements for galaxies with low \halpha\
-and stellar surface brightness.\footnote{
+Therefore, we perform our analysis using the spaxel-by-spaxel
+determination of the stellar and ionized-gas kinematics.\footnote{
 %
-The uniformity of the MaNGA survey \citet{2015AJ....150...19L} is such
-that the signal-to-noise (S/N) of the datacube spaxels is tightly
-correlated with surface brightness.}
+However, note that only the stellar kinematic determined for data
+Voronoi binned to S/N$\sim$10 will be provided as part of DR15.}
 
-\comment{Extinction corrections for the CMD?}
 
-\comment{Primary vs. Secondary sample?}
+\section{Velocity-Field Modeling}
+
+\subsection{Formalism}
+
+We fit the \halpha and stellar velocity fields using an approach similar
+to \citet{2013ApJ...768...41A} \citep[][see also
+\citealt{2011ApJ...742...18W}].  The velocity field is modeled as an
+infinitely thin disk in fully circular rotation that follows a
+parameterized form $V_{\rm rot}(R)$; here we use a simple hyperbolic
+tangent function:
+%
+\begin{equation}
+%
+V_{\rm rot}(R) = V_\infty \tanh(R/h_{\rm rot}),
+%
+\label{eq:tanh}
+%
+\end{equation}
+%
+where $V_\infty$ is the asymptotically flat rotation speed and $h_{\rm
+rot}$ is a characteristic scale for the rise of the rotation curve, and
+the model line-of-sight (LOS) velocity is
+%
+\begin{equation}
+%
+V_{\rm los}(x,y) = V_{\rm rot}(R[x,y])\ \cos(\theta[x,y])\ \sin i +
+V_{\rm sys}
+%
+\label{eq:vlos}
+%
+\end{equation}
+%
+where $i$ is the disk inclination (a ``face-on'' disk has $i=0$), and
+$V_{\rm sys}$ is the systemic velocity of the galaxy.  The disk-plane
+polar coordinates ($R,\theta$) in Equation \ref{eq:vlos} are functions
+of the on-sky position:
+%
+\begin{eqnarray}
+%
+x_d & = & (x+x_0)\sin\phi_0 + (y+y_0)\cos\phi_0 \\
+%
+y_d\cos i  & = & -(x+x_0)\cos\phi_0 + (y+y_0)\sin\phi_0 \\
+%
+R^2 & = & x_d^2 + y_d^2 \\
+%
+\tan\theta & = & -y_d / x_d,
+%
+\label{eq:diskrt}
+%
+\end{eqnarray}
+%
+where ($x,y$) is the on-sky position ($+$$x$ is to the east) relative to
+the center of the object as defined by the targeting catalog,
+($x_0,y_0$) is the location of this pointing center of the IFU relative
+to the dynamical center, $\phi_0$ is the position angle defined from
+north through east of the receding side of the major axis, and
+($x_d,y_d$) are the disk-plane Cartesian coordinates.  Note that
+$\theta=0\arcdeg$ along the major axis on the receding side of the
+galaxy. 
+
+\comment{REST IS OLD TEXT}
+
+[[We emphasize that this parametrization is used in the determination of
+the kinematic geometry from the rotation curve, but not as measurements
+of the rotation speed itself (see Section XX).]]
+
+Provided $j=0...N_{\rm spaxels}$ LOS velocity measurements, $V_{{\rm
+los},j}$, and their errors, $\epsilon_{v,j}$, we determine the
+best-fitting model velocity field using a Levenberg-Marquardt
+minimization algorithm with the following figure-of-merit:
+%
+\begin{equation}
+%
+\chi^2 = \sum_j \frac{ (V_{{\rm los},j}-V_{\rm mod}[x_j,y_j])^2 }{
+\epsilon^2_{v,j} + \epsilon^2_{\rm mod}},
+%
+\label{eq:vfchi}
+%
+\end{equation}
+%
+where $\epsilon_{\rm mod}$ is an intrinsic scatter of the measured LOS
+velocities about the simplistic model.  To simplify further discussion,
+we denote the $j$ components of the sum on the right-hand of the
+equation as $\chi^2_j$. [[Go back and include the ``beam-smearing''
+term?]]
+
+In an effort to minimize the well-known covariance between the
+inclination and rotation speed (refs), our velocity-field
+parameterization actually fits the {\em projected} rotation curve (i.e.,
+$V_{\rm rot}(R) \sin i$) instead of the disk-plane rotation speed
+itself.  The fitted parameters for a single velocity field are then
+$x_c$, $y_c$, $i$, $\phi_0$, $V_{\rm sys}$, $V_\infty \sin i$, and
+$h_{\rm rot}$.
+
+\subsubsection{Implementation details}
+\label{sec:vfimplement}
+
+The description in Section \ref{sec:vfbasic} [[apart from leaving out
+the beam-smearing term]] is identical to the approach of
+\citet{2013ApJ...768...41A}.  The alterations specific to our
+implementation are as follows \citep[cf.][]{2011ApJ...742...18W}:
+
+\begin{enumerate}
+%
+\item {\em Simultaneous VF fitting}:  We have extended the code from
+\citet{2013ApJ...768...41A} to allow for simultaneous fits to multiple
+dynamical tracers, while allowing the rotation curves of the two
+components to be different.  Although we do fit the \halpha and stellar
+data fit independently, this is primarily used in the selection cuts
+imposed in Section \ref{sec:kingeomcuts}.  When fitted simultaneously,
+there are three additional free parameters compared to those listed
+above: the two additional rotation curve parameters and systemic
+velocity of the second dynamical tracer.  That is, even when fitting the
+two velocity fields simultaneously, we allow for the systemic velocities
+of the two tracers to be different.  This is primarily to allow for,
+e.g., systematic errors in the velocity registration of the template
+libraries used to determine the stellar kinematics.  Ideally, one would
+like to force the systemic velocities of the two tracers to be the same,
+and we discuss the effects on our results by allowing them to be
+different in Section \ref{sec:kingeom}.
+%
+\item{\em Intrinsic scatter}:  The intrinsic scatter term,
+$\epsilon_{\rm mod}$, serves a number of purposes.  Its effect is to
+alter the error-weighted distribution of the fit residuals such that it
+closely follows a Gaussian distribution with unity standard deviation;
+that is, it forces the reduced $\chi^2$, $\chi^2_\nu$, of the fit to be
+very close to unity.  Indeed, \citet{2013ApJ...768...41A} chose
+$\epsilon_{\rm mod}$ such that $\chi^2_\nu$$\sim$1 to within 1\%.  Our
+approach is to instead iteratively adjust $\epsilon_{\rm mod}$ until the
+growth curve of $\chi^2_j$ is marginally different from the growth curve
+of a Gaussian function with unity standard deviation.  This approach is
+primarily chosen given its advantage in dealing with our third
+alteration. [[Affect on formal parameter errors from the covariance
+matrix.]]
+%
+\item{\em Measurement Rejection}:  The fits to the velocity fields
+generally provide $\chi^2_\nu > 1$ when $\epsilon_{\rm mod} = 0$,
+meaning that there is a general systematic discrepancy of model with
+respect to the $V_{\rm los}$ measurements that is not accounted for by
+the random errors, $\epsilon_{v,j}$.  Although most of the discrepancies
+can be accounted for by a small ($\epsilon_{\rm mod}\sim XX$) scatter
+about the simplistic model, systematic error in the kinematic
+measurements, particularly at low SNR, can lead to a number of
+$V_{{\rm los},j}$ with $\chi^2_j \gg 1$.  We iteratively reject these
+data from the fit at the same time as we determine the intrinsic scatter
+term, $\epsilon_{\rm mod}$.  After fitting the data with a given
+$\epsilon_{\rm mod}$ (starting with 0), we iteratively reject points
+with $\chi^2_j > 1$, starting with the largest value, and adjust
+$\epsilon_{\rm mod}$ until the root-mean-square difference between the
+growth curve of $\chi^2_j$ and a Gaussian with unity standard deviation
+is minimized.  This whole process of fitting the velocity field,
+determining $\epsilon_{\rm mod}$, and rejecting aberrant data is done
+many times to make sure that the points that are rejected and the value
+of $\epsilon_{\rm mod}$ is not strongly biased by the initial fit to the
+velocity field.
+%
+\end{enumerate}
+
+% [[I realize that the above two (maybe even all three) things are
+% highly detailed.  We probably want to make them simpler.]]
+
+\subsubsection{Initialization}
+\label{sec:vfinit}
+
+The MaNGA data cubes (cf. Law et al.~{\em in prep}) provide an accurate
+registration of the spectrophotometry with on-sky imaging data to
+provide a detailed astrometric calibration in the form of a
+world-coordinate system (WCS) in the fits headers. The coordinates of
+the targeted galaxy\footnote{
+%
+This is generally the center of the data cube field-of-view; however,
+some observations were purposely offset for testing purposes.
+%
+} are, in general, exactly the coordinates provided by the NASA-Sloan
+Atlas; however, some coordinates have been adjusted to better match the
+galaxy center [[check this with David W.]] (cf., Wake et al.~{\em in
+prep}).  The ($x,y$) coordinate system in Eqn. \ref{eq:vlos} is then
+established by setting the (0,0) coordinate at the galaxy center.  Thus,
+when freely fit, we should expect to find $x_0 = y_0 = 0$ arcsec.
+
+The NASA-Sloan Atlas also provides ellipticity and position angle
+measurements for isophotal contours of each galaxy, which we use as the
+initial guesses for the kinematic inclination and position angle,
+respectively.  For an oblate spheroid with intrinsic axial ratio $q_0$
+and an observed ellipticity of $\varepsilon = 1-b/a$, its inclination to
+the LOS is given by (ref)
+%
+\begin{equation}
+%
+\cos^2 i_{\rm phot} = \frac{ (1-\varepsilon)^2 - q_0^2 }{ 1 - q_0^2 }.
+%
+\label{eq:inc}
+%
+\end{equation}
+%
+For our measurements of $i_{\rm phot}$, we assume $q_0 = 1/8$ (Bershady;
+but, cf., Weijmanns).
+
+Given that our definition of $\phi_0$ is tied to the vector along the
+major axis toward the receding side of the velocity field, the kinematic
+position angle has a valid range of $2\pi$.  However, photometric
+position angles only have a valid range of $\pi$.  Our initial guess of
+$\phi_0$ is either the same as the photometric value or flipped by
+$180\degr$ based on an initial deprojection of the rotation speed along
+the photometric position angle.
+
+Finally, we use the redshift provided by the NASA-Sloan Atlas as the
+initial estimate of the systemic velocity, $V_{\rm sys} = c z_{\rm
+NSA}$.
+
+\subsubsection{Fitting iterations}
+\label{sec:vfiter}
+
+We expect AD to be present in all galaxies, and so we
+attempt to fit all 1392 galaxies in the current MaNGA sample.  For such
+a large galaxy sample, it is difficult to attempt human interaction at a
+detailed level with each fit.  Therefore, all of the fits have been
+performed in an automated way.  To help in the quality assessments of
+the fits (Sections \ref{sec:kingeom} and \ref{sec:kingeomcuts}), we fit
+the velocity fields of each tracer (\halpha-emitting gas and stars) both
+individually and in a single, simultaneous fit.  Additionally, we
+perform the individual and simultaneous fits under permutations of
+fixing and freeing the inclination and center.
+
+The determination of $V_{\rm sys}$ and $\phi_0$ are generally robust and
+well-constrained by the data, meaning there is no need to fix them to
+certain values.  Conversely, the inclination and center can be poorly
+determined in certain regimes.  For example, when the observed velocity
+field is that of a solid-body rotator, the isovelocity contours all
+become parallel to the minor axis ($V_{\rm rot} \propto R$ and, at a
+fixed perpendicular distance from the minor axis, $\cos\theta \propto
+R^{-1}$).  Thus, in the absence of any other information, one could
+place the center anywhere in the velocity field without affecting
+$\chi^2$.  Similarly, measurements of inclination depend on the
+curvature seen in the isovelocity contours and there is no such
+curvature for a solid-body rotator.  Finally, at low inclination, the
+curvature in the isovelocity contours can be imperceptible due to the
+stochastic deviations (random and systematic) about the fitted model.
+Therefore, by performing fits that both fix and free the center and
+inclination, we can test the consistency of the results and the
+significance of kinematically constrained parameters versus simply
+adopting the photometric one.
+
+In addition, we impose boundaries on the allowed range for the geometric
+parameters.  We force the systemic velocity to be within $\pm1000$
+\kms{} of the input guess, we force $0.1\leq i \leq 85$ and
+$0\leq\phi_0<360$, and we define a bounding box for the fitted center to
+be $\sim$20\% of the full field-of-view.  The limits for the IFUs with
+19, 37, 61, 91, and 127 fibers are limited to $\pm1\arcsec$,
+$\pm2\arcsec$, $\pm2\arcsec$, $\pm3\arcsec$, and $\pm3\arcsec$,
+respectively.
+
+In summary, we perform 12 velocity-field fits for each galaxy: (1) four
+fits are permutations of fixing and freeing the center and inclination
+and (2) each of these four fits is done when only fitting the \halpha
+data, only fitting the stellar data, and fitting both tracers
+simultaneously.
+%
+\begin{figure*}
+%
+\includegraphics[width=0.9\textwidth]{figs/sys_cen_pa.pdf}
+%
+\caption{
+%
+Distribution of (a) the difference between the \halpha and stellar
+systemic velocities; (b) the center relative to the imposed fit
+boundary; and (c) the difference between the \halpha and stellar kinematic
+position angles.  For the center panel, the distributions of
+$\tilde{x}_0$ and $\tilde{y}_0$ are shown as (transparent) light and
+dark histograms, respectively.  The 3-sigma clipped mean ($\mu$) and
+standard deviation ($\epsilon$) for each distribution is provided in
+associated panel.  The dashed lines illustrate the cuts that we adopt
+for each parameter in our AD analysis(see text).
+%
+}
+%
+\label{fig:sys_cen_pa_hist}
+%
+\end{figure*}
+
+\subsection{Kinematic Geometry Results}
+\label{sec:kingeom}
+
+For our AD measurements, we require robustly measured kinematic
+geometries that can be applied to both the \halpha-emitting and stellar
+components.  This requirement drives our assessments of the kinematic
+geometries and the selection of galaxies to propagate through our AD
+analysis in the remaining sections of the paper.  For example, it is
+physically plausible to find a significant offsets between the position
+angles of gas and stars (e.g., Chen et al.; Belfiore et al.); however,
+this is typically the signature of an accretion event and not conducive
+to an AD measurement.  Given the fits that we have performed, we can
+check both the consistency of the \halpha and stellar geometries, as well
+as their consistency with the morphological geometry.
+
+We first limit our assessments to those galaxies with successfully
+converged velocity-field fits for all 12 fit iterations, which cuts our
+sample from 1392 to 1322 galaxies.  [[Should maybe have a sentence about
+why these failed?]]  All subsequent cuts include this base-level
+selection.
+
+\subsubsection{Systemic velocity}
+
+When fit separately, the best-fitting systemic velocities for both the
+\halpha and stellar data are in good agreement with each other and with
+the redshifts in the NASA-Sloan Atlas, $cz_{\rm NSA}$.  The mean
+difference with respect to $cz_{\rm NSA}$ over the full 1322 galaxies is
+less than 10 \kms{} and the standard deviation is approximately the
+velocity width of a spectral channel ($\sim$70 \kms{}), regardless of
+the fitting constraints or tracer.
+
+The result is approximately the same when considering the difference
+between the \halpha-only and stellar-only fit parameters.  Indeed, we
+should expect that the systemic velocity should be the same for the
+\halpha and stellar components; however, we have allowed them to be
+different, even when fitting the two velocity fields simultaneously.
+Fig.~\ref{fig:sys_cen_pa_hist}(a) shows the distribution of $V_{{\rm
+sys,H}\alpha} - V_{{\rm sys},\ast}$ when both are fit simultaneously.
+After applying a 3-sigma clipping algorithm, we find a mean difference
+of $2.3\pm6.8$ \kms{}.  It is difficult to understand how this
+systematic offset could arise either physically or due to a
+wavelength-calibration error.  We therefore assume that this mean offset
+is due to a systematic error in the velocity registration of the MIUSCAT
+template spectra across our fitted wavelength range.  Further work is
+required to exactly address this problem; however, it has a minimal
+effect on our analysis [[need to test this]].
+
+To avoid the strong outliers, particular toward the negative end of
+Fig.~\ref{fig:sys_cen_pa_hist}(a), we select only those galaxies with
+-12.5 \kms{} $\leq V_{{\rm sys,H}\alpha} - V_{{\rm sys},\ast} \leq 17.5$
+\kms{} for further analysis; 850 of 1322 galaxies (64\%) meet this
+criterion.
+
+\subsubsection{Pointing relative to the dynamical center}
+
+In Section \ref{sec:vfiter}, we noted that the pointing relative to the
+dynamical center ($x_0,y_0$) has a bounding box placed on it that is
+IFU-dependent.  When selecting results for our AD analysis, we care more
+about the fitted center relative to the bounding box than we do about
+the absolute center in arcseconds.  Therefore, in
+Fig.~\ref{fig:sys_cen_pa_hist}(b) we show the ratio of the fitted center
+relative to the size of the bounding box --- e.g., $-1\leq \tilde{x}_0
+\leq 1$ --- for both on-sky coordinates.  Recall (Section
+\ref{sec:vfbasic}) the definition of our ($x,y$) coordinate system is
+such that a result of $(x_0,y_0) = (0,0)$ means that the morphological
+and dynamical centers are co-located.
+
+The results in Fig.~\ref{fig:sys_cen_pa_hist}(b) are specifically for
+the case where we have fit both tracers simultaneously.  We find that
+the simultaneous fit to both tracers reduces the scatter about the
+morphological center compared to the result for the fits to an
+individual tracer: the standard deviations are 0.52, 0.44, and 0.39 for
+the \halpha, stellar, and combined fits, respectively.  Under the
+expectation that the morphological and dynamical centers should be the
+same for dynamically settled galaxies, we force both $\tilde{x}_0$ and
+$\tilde{y}_0$ to be within $\pm0.5$, of which 926/1322 (70\%) of the
+galaxies satisfy.  Before applying this selection, the standard
+deviation of $(x_0,y_0)$ is approximately $0\farcs9$ for each
+coordinate, which is reduced by a factor of 3 for the selected sample of
+926 galaxies.
+
+\subsubsection{Position angle}
+
+The kinematic position angle is periodic with an imposed range in the
+fit of $0\leq\phi_0\leq360$.  In calculating the difference between any
+two position angles, we account for this range and periodicity such that
+the difference in position angle should be centered at $0\degr$, as is
+the case when comparing $\phi_{0,{\rm H}\alpha}$ and $\phi_{0,\ast}$ in
+Fig.~\ref{fig:sys_cen_pa_hist}(c).  Although physical differences in the
+fitted position angles are interesting for other reasons (earlier refs;
+Chen et al.; Belfiore et al.), our measurements of AD benefit from
+selecting galaxies where the position angles are very similar.
+
+In contrast with the other two panels in Fig.~\ref{fig:sys_cen_pa_hist},
+panel (c) compares the results when each dynamical tracer is fit
+independently.  We find a standard deviation in the difference of
+$7\degr$ after iteratively clipping at 3-sigma.  We have chosen to
+select only those galaxies with \halpha and stellar derived $\phi_0$ that
+differ by less than $15\degr$, which selects 832 of the 1322 (63\%)
+galaxies.  Although our selection criterion for $\phi_0$ is based on the
+\halpha-only and stellar-only fits, we note that the calculation of AD
+{\em assumes the position angle obtained from the simultaneous fit to
+both tracers}.  The 3-sigma clipped standard deviation of the difference
+between $\phi_{0,{\rm H}\alpha}$ or $\phi_{0,\ast}$ and the result when
+both are fit simultaneously is $\sim$1$\degr$.
+
+\begin{figure}
+%
+\includegraphics[width=0.98\columnwidth]{figs/inc_select.pdf}
+%
+\caption{
+%
+Comparison of the three kinematic inclinations --- as resulting from the
+\halpha-only ($i_{{\rm H}\alpha}$), stellar-only ($i_\ast$) and
+simultaneous ($i_{\ast+{\rm H}\alpha}$) fits --- with the photometric
+inclination, $i_{\rm phot}$ (see eqn.~\ref{eq:inc}).  From top-left to
+bottom-right, the panels illustrate the progression of our
+inclination-based selection criteria.  The gray dotted line shows the
+1:1 correspondence in all panels.  ({\em Top row}): Comparison of
+$i_{\ast+{\rm H}\alpha}$ (abscissa) and $i_\ast$ (ordinate) for all 1322
+galaxies with successful velocity-field fits.  The top-left panel shows
+the distribution before any selection criteria are applied, whereas the
+top-right panel converts the point type for galaxies that are {\em not}
+selected by the constraints on $V_{\rm sys}$, $(x_0,y_0)$, and $\phi_0$
+to small points.  In the top-right panel, the dashed polygon represents
+our primary inclination criterion.  ({\em Bottom row}): Comparison of
+$i_{\rm phot}$ (abscissa) with $i_{\ast+{\rm H}\alpha}$ (ordinate);
+large dots and small points have the same meaning as in the top-right
+panel.  The bottom-left panel shows all galaxies that pass our primary
+inclination criterion, whereas the bottom-right panel shows only those
+galaxies that satisfy both criteria (see text).  The dashed lines in the
+bottom-left panel illustrate our secondary inclination criterion.
+%
+}
+%
+\label{fig:incselect}
+%
+\end{figure}
+
+\subsubsection{Inclination}
+
+In Fig.~\ref{fig:incselect}, we compare the photometric inclinations
+(see eqn.~\ref{eq:inc}) with the kinematic inclinations determined from
+the \halpha-only ($i_{{\rm H}\alpha}$), stellar-only ($i_\ast$), and
+simultaneous ($i_{\ast+{\rm H}\alpha}$) velocity-field fits,
+illustrating the progression of our inclination selection criteria.
+
+The top-left panel of Fig.~\ref{fig:incselect} shows that the fitted
+inclinations for a significant number of galaxies are biased by our
+imposed fit boundaries.  Therefore, we first only consider galaxies with
+kinematic inclinations that are between $15\degr < i_{\rm kin} <
+80\degr$.  Even after imposing this limit, however, we find $i_{{\rm
+H}\alpha} - i_\ast \approx -1\degr\pm16\degr$.  The difference between
+$i_{\ast+{\rm H}\alpha}$ and either $i_{{\rm H}\alpha}$ or $i_\ast$ has
+an understandably smaller scatter of $\pm11\degr$.  If we simultaneously
+impose the constraints outlined above for $V_{\rm sys}$, $(x_0,y_0)$,
+and $\phi_0$, we are left with 622 of 1322 galaxies that have $i_{{\rm
+H}\alpha} - i_\ast \approx -2\degr\pm12\degr$, as shown in the top-right
+panel of Fig.~\ref{fig:incselect}.  Based on this distribution, our
+primary inclination selection is $15\degr < i_{\rm kin} < 80\degr$ and
+$|i_{{\rm H}\alpha} - i_\ast| < 20\degr$.  When applied to fits both
+with and without the center fixed, the criterion is satisfied by 524 of
+the 1322 galaxies.
+
+Our secondary criterion checks for consistency of $i_{\ast+{\rm
+H}\alpha}$ and $i_{\rm phot}$, which is shown in the bottom-left panel
+of Fig.~\ref{fig:incselect}.  After imposing only the primary
+inclination criterion, we find $i_{\ast+{\rm H}\alpha} - i_{\rm phot} =
+0\degr\pm10\degr$; the scatter decreases to $\pm9\degr$ if we also apply
+the $V_{\rm sys}$, $(x_0,y_0)$, and $\phi_0$ criteria.  Our secondary
+inclination criterion imposes $|i_{\ast+{\rm H}\alpha} - i_{\rm phot}| <
+20\degr$, such that the full sample is shown as filled dots in the
+bottom-right panel of Fig.~\ref{fig:incselect}.  The combination of the
+two inclination criteria yields our most stringent selection cut,
+limiting our sample from 1322 to 487 galaxies.
+
+% Since our goal is to measure asymmetric drift, we want to force the
+% kinematic geometry fitted to the \halpha and stellar velocity fields to
+% be identical; however, we want to allow for the rotation curves of the
+% two tracers to be independent.
+
+[[Note the systematic offset between the kinematic and photometric
+inclinations at $i_{\rm phot} \gtrsim 60\degr$.  Known inadequacy of the
+infinitely thin model.  Check the effect this has on the AD-$\sigma$
+distribution.]]
+
+\subsubsection{Summary of selection cuts}
+\label{sec:kingeomcuts}
+
+In summary, our AD-$\sigma$ analysis is of galaxies that satisfy the
+following set of constraints on the results from the velocity field
+fitting:
+%
+\begin{enumerate}
+%
+\item When the two velocity fields are fitted simultaneously, the
+difference between the systemic velocities fit to the \halpha and stellar
+velocity fields must be within -12.5 \kms{} $\leq V_{{\rm
+sys,H}\alpha}-V_{{\rm sys},\ast} \leq 17.5$ \kms{} for {\em all} four of
+the fit permutations.
+%
+\item In the two simultaneous fits to the \halpha and stellar data with
+the dynamical center left free, the dynamical center must be within half
+of the imposed bounding box on the morphological center.
+%
+\item For {\em all} the relevant fit permutations, the difference
+between the \halpha-only and stellar-only fitted position angles must be
+less than 15$\degr$.
+%
+\item In {\em all} six fits when the inclination is freely fit, the
+best-fitting kinematic inclination must be in the range $15\degr <
+i_{\rm kin} < 80\degr$.  The difference between the \halpha-only and
+stellar only kinematic inclinations must be less than $20\degr$ both
+with and without a fixed center.  When both tracers are fit
+simultaneously, the kinematic inclination must also be within $20\degr$
+of the photometric inclination (eqn.~\ref{eq:inc}).
+%
+\end{enumerate}
+%
+The simultaneous application of all these cuts yields a sample of 413
+galaxies from the original set of 1322.
+
+% (Under the expectation that a similar fraction applies to the full
+% MaNGA sample, we should be able to obtain a sample of $\sim$3000
+% galaxies for AD measurements in 2020!)
+
+% \subsection{Uncertainties}
+% \label{sec:vfuncer}
+% 
+% \subsubsection{Beam smearing}
+% \label{sec:vfbeam}
+% 
+% [Test by constructing some models?]
+% 
+% \subsubsection{Template Effects}
+% \label{sec:vftpl}
+% 
+% (Brief) comparison of MILES and MIUSCAT results.
+% 
+% \subsubsection{Covariance}
+% \label{sec:vfcov}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 We model the geometric projection of the rotational plane of each galaxy
 using the approach presented by \citep[][see also
@@ -612,4 +1189,26 @@ galaxies.
 %\label{tab:lines}
 %\end{deluxetable*}
 
+
+
+
+
+Using the photometry from the NSA, Figure \ref{fig:sample} shows the
+color-magnitude diagram of all galaxies colored by their mean \halpha\
+and $r$-band surface brightness.
+
+However, our nominal approach to measuring the stellar and gas rotation curves will be limited forAs such,
+measurements of stellar and/or \halpha\ rotation curves for some systems
+will be difficult/impossible.  
+
+
+
+\comment{Update this} Although not
+excluded from our velocity-field analysis {\em a priori}, we expect to
+obtain poor rotation-curve measurements for galaxies with low \halpha\
+and stellar surface brightness.
+
+\comment{Extinction corrections for the CMD?}
+
+\comment{Primary vs. Secondary sample?}
 
